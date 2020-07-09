@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Flipkart page test">
+	<test name="Test the google page">
+
+		<parameter name="env" value="QA" />
+		<parameter name="browser" value="chrome" />
+		<parameter name="url" value="https://www.flipkart.com/" />
+		<parameter name="email" value="padadaiahswamyh@gmail.com" />
+		<classes>
+			<class name="com.parameters.ParametrTest" />
+		</classes>
+	</test>
+</suite>

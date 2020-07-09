@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flipkart page test]">
+  <test thread-count="5" name="Test the google page(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="env" value="QA"/>
+    <parameter name="url" value="https://www.flipkart.com/"/>
+    <parameter name="email" value="padadaiahswamyh@gmail.com"/>
+    <classes>
+      <class name="com.parameters.ParametrTest">
+        <methods>
+          <include name="flipkartTest"/>
+        </methods>
+      </class> <!-- com.parameters.ParametrTest -->
+    </classes>
+  </test> <!-- Test the google page(failed) -->
+</suite> <!-- Failed suite [Flipkart page test] -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Google page test">
+	<test name="Test the google page">
+		<classes>
+			<class name="testNGconceptPKG.Googlepage" />
+		</classes>
+	</test>
+</suite>
